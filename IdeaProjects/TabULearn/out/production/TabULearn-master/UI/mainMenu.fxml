@@ -8,9 +8,9 @@
 <?import javafx.scene.paint.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="649.9999000000025" prefWidth="800.9999000000025" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="UI.mainMenuController">
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0000999999975" prefWidth="801.0000999999975" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="UI.mainMenuController">
   <children>
-    <SplitPane dividerPositions="0.20216052502477158" focusTraversable="true" orientation="VERTICAL" prefHeight="649.9999000000025" prefWidth="800.9999000000025" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+    <SplitPane dividerPositions="0.20216046262955903" focusTraversable="true" orientation="VERTICAL" prefHeight="649.9999000000025" prefWidth="800.9999000000025" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
       <items>
         <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
           <children>
@@ -28,7 +28,7 @@
                 <Slider layoutX="235.0" layoutY="32.0" prefWidth="100.0" showTickLabels="false" showTickMarks="false" value="50.0" />
                 <HBox id="HBox" alignment="CENTER" layoutX="400.0" layoutY="94.0" spacing="5.0">
                   <children>
-                    <Button fx:id="btnTab" mnemonicParsing="false" text="Tab" />
+                    <Button fx:id="btnTab" mnemonicParsing="false" onAction="#loadTabs" text="Tab" />
                     <Button fx:id="btnGear" mnemonicParsing="false" text="Gear" />
                   </children>
                 </HBox>
@@ -59,7 +59,7 @@
         </AnchorPane>
         <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
           <children>
-            <SplitPane dividerPositions="0.24968632371392724" focusTraversable="true" prefHeight="483.0" prefWidth="799.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <SplitPane dividerPositions="0.24937343358395989" focusTraversable="true" prefHeight="483.0" prefWidth="799.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
               <items>
                 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
                   <children>

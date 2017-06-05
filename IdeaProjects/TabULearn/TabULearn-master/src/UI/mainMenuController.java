@@ -39,6 +39,14 @@ public class mainMenuController {
 
     }
     @FXML
+    public void loadTabs() throws Exception{
+        Stage importStage = new Stage();
+        Parent root = FXMLLoader.load(getClass().getResource("tabView.fxml"));
+        importStage.setTitle("tabView");
+        importStage.setScene(new Scene(root, 800, 500));
+        importStage.show();
+    }
+    @FXML
     public void initialize(){
 
 
